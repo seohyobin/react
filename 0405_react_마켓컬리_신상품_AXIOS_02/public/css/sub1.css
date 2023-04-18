@@ -1,0 +1,74 @@
+#wrap {
+  width: 100%;
+}
+#wrap #sub1 {
+  width: 100%;
+}
+#wrap #sub1 #section1 {
+  width: 100%;
+  padding: 0 0 70px 0;
+}
+#wrap #sub1 #section1 .container {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+#wrap #sub1 #section1 .container .gap {
+  width: 100%;
+}
+#wrap #sub1 #section1 .container .gap .content {
+  width: 100%;
+}
+#wrap #sub1 #section1 .container .gap .content a {
+  display: block;
+  width: 100%;
+}
+#wrap #sub1 #section1 .container .gap .content a img {
+  width: 100%;
+}
+#wrap #sub1 #section2 {
+  width: 100%;
+}
+#wrap #sub1 #section2 .container {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+#wrap #sub1 #section2 .container .gap {
+  width: 100%;
+}
+#wrap #sub1 #section2 .container .gap .title {
+  width: 100%;
+  padding: 0 0 60px 0;
+  text-align: center;
+}
+#wrap #sub1 #section2 .container .gap .title h2 {
+  font-size: 28px;
+  color: #333;
+}
+#wrap #sub1 #section2 .container .gap .content {
+  width: 100%;
+  display: flex;
+}
+#wrap #sub1 #section2 .container .gap .content .left {
+  width: 262.5px;
+}
+#wrap #sub1 #section2 .container .gap .content .right {
+  width: 787.5px;
+}
+#wrap #sub1 #section2 .container .gap .content .right .right-content {
+  width: 100%;
+}
+#wrap #sub1 #section2 .container .gap .content .right .right-content > ul {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+#wrap #sub1 #section2 .container .gap .content .right .right-content > ul > li {
+  width: 250px;
+  padding: 0 0 90px 0;
+}
+#wrap #sub1 #section2 .container .gap .content .right .right-content > ul > li > a .img-box > img {
+  width: 100%;
+}

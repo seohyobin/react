@@ -1,0 +1,63 @@
+
+
+역슬레시는 2번 써줘야지 문자로 표현
+
+ const regEx2 = /.{6,16}/g;  //입력제한 6자 이상 16자 이하
+중괄호는 숫자의 범위
+
+
+이메일 아이디 같은거 안돼
+
+
+아이디 비밀번호 이름 이메일 휴대폰 성별 생년월일
+
+luck1409 dkssud1  서효빈 luck1409@hanmail.net 930530 
+luck1400 dkssusdfd1 박다미 lucv1409@hanmail.net 931206
+luck1301 dfgsdg  김슬기 seohyobin2@hanmail.net 930515
+luck1202 vfhjgj  최미연 janeseo@hanmail.net 930430
+luck1103 wetsfdg 최혜선 janeserrr@hanmail.net 930215
+luck1009 asdlsdkfl  박효빈  janeseo0530@gmail.com 930101
+
+
+
+이용약관 동의필수
+개인정보 수집∙이용 동의필수
+본인은 만 14세 이상입니다.본인은 만 14세 이상입니다.
+
+
+
+
+
+ axios().then().catch(); 엑시오스가 실행한다면 catch 잡아준다 오류가 있는지 없는지
+
+
+
+
+axios({}).then(()=>{}).catch(()=>{});
+
+
+            axios({
+
+            })
+            .then(()=>{
+
+            })
+            .catch(()=>{
+                
+            });
+
+
+화살표함수 사용
+
+   $arr = array();
+   while($row = mysqli_fetch_array($result)){
+
+   }
+push 넣으면 마지막에
+
+mysqli_fetch_array 얘는 배열은 한줄문으로 가지고와 $result에 답이있으면 계속 가지고와
+
+
+버튼 사용안하려면 disable
+
+disabled={true} true 사용못함

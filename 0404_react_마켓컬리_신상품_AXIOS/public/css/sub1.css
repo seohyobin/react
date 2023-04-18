@@ -1,0 +1,28 @@
+#wrap {
+  width: 100%;
+}
+#wrap #sub1 {
+  width: 100%;
+}
+#wrap #sub1 #section1 {
+  width: 100%;
+  padding: 0 0 70px 0;
+}
+#wrap #sub1 #section1 .container {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+#wrap #sub1 #section1 .container .gap {
+  width: 100%;
+}
+#wrap #sub1 #section1 .container .gap .content {
+  width: 100%;
+}
+#wrap #sub1 #section1 .container .gap .content a {
+  display: block;
+  width: 100%;
+}
+#wrap #sub1 #section1 .container .gap .content a img {
+  width: 100%;
+}

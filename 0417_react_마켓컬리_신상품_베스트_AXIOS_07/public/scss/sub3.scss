@@ -1,0 +1,270 @@
+#wrap{
+    width: 100%;
+    #sub3{
+        width: 100%;
+
+        #section1{
+            width: 100%;
+            padding: 0 0 70px 0;
+            .container{
+                width: 100%;
+                max-width: 1050px;
+                margin: 0 auto;
+                .gap{
+                    width: 100%;
+                    .content{
+                        width: 100%;
+                        a{
+                            display: block;
+                            width: 100%;
+                            img{
+                                width: 100%;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #section2{
+            width: 100%;
+            .container{
+                width: 100%;
+                max-width: 1050px;
+                margin: 0 auto;
+                .gap{
+                    width: 100%;
+                    .title{
+                        width: 100%;
+                        padding: 0 0 60px 0;
+                        text-align: center;
+                     
+                        h2{
+                            font-size: 28px;
+                            color: #333;
+                            
+
+                        }
+                    }
+                    .content{
+                       width: 100%;
+                       display: flex;
+                        .left{
+                            position: sticky;
+                            top: 80px;
+                            left: 0;
+                            width: 262.5px * 1;
+                            padding: 0 50px 0 0;
+                            height: 100vh;
+                             //수직 스크롤 오버시 자동으로 나와
+                            overflow-y: auto;
+                            //스크롤바 디자인
+                            &::-webkit-scrollbar{
+                                width: 0;
+
+                            }
+                            &::-webkit-scrollbar-track{
+                                background-color: #fff;
+                            }
+                            &::-webkit-scrollbar-thumb{
+                                background-color: #fff;
+                            }
+
+
+                            
+                            .left-title{
+                                padding: 0 0 18px 0;
+                                width:100%;
+                                display: flex;
+                                justify-content: space-between;
+                                border-bottom: 1px solid #ddd;
+                                strong{}
+                                span{
+                                    img{}
+                                    em{}
+                                }
+                            }
+                            .left-content{
+                                //padding: 10px 0 0 0 ;
+                                div{
+                                    > a{ //카테고리버튼
+                                        font-weight: 600;
+                                        display: flex;
+                                        height: 52px;
+                                        align-items: center;
+                                        justify-content: space-between;
+                                        border-bottom: 1px solid #eee;
+                                        span{
+                                            font-weight: 500;
+                                            color: #000;
+                                            font-size: 15px;
+                                        }
+                                        img{
+                                            width: 18px;  //화살표버튼 회전
+                                            transition: all 0.3s;
+                                        }
+                                        &.on{
+                                           img{
+                                            transform: rotate(180deg);
+                                           }
+                                        }
+
+                                    }
+                                    .sub{
+                                        width: 100%;
+                                        display: block;
+                                        ul{
+                                            width: 100%;
+                                            li{
+                                                width: 100%;
+                                                padding: 8px 0;      
+                                                label{
+                                                    width: 100%;
+                                                    color: #333;
+                                                    font-size: 14px;
+                                                    transition: all 0.3s;
+                                                    cursor: pointer;
+                                                    &:hover{
+                                                        color: #5f0080;
+                                                    }
+                                                    input{
+                                                        width: 18px;
+                                                        height: 18px;
+                                                        border-radius: 50%;
+                                                        appearance: none;
+                                                        background: url(../images/sub1/chk_off.svg);
+                                                        margin:0 10px 0 0 ;
+                                                        &:checked{
+                                                            background-image: url(../images/sub1/chk_on.svg);
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .right{
+                            width: 262.5px*3;
+                            .right-title{
+                                width:100%;
+                                display: flex;
+                                justify-content: space-between;
+                                padding: 0 0 15px 0;
+                                strong{
+                                    font-size: 14px;
+                                    font-weight: 600;
+                                    color: #333;}
+                                span{
+                                    font-size: 14px;
+                                    a{
+                                        color: #999;
+                                        img{width: auto;}
+                                        &.on{
+                                            font-weight: 600;
+                                            color: #333;
+                                            
+                                        }
+                                    }
+                                    i{
+                                        color: #ccc; font-size: 12px;
+                                        margin: 0 10px;
+                                    }
+                                }
+
+                            }
+                            .right-content{
+                                width: 100%;
+                                > ul{
+                                    width: 100%;
+                                    display: flex;
+                                    flex-flow: row wrap;
+                                    justify-content: space-between;
+                                  > li{
+                                    width: 250px;
+                                    padding:0 0 90px 0;
+                                       > a{
+                                            
+                                            .img-box{
+                                                width: 100%;
+                                                height: 320px;
+                                                overflow: hidden;
+                                                > img{
+                                                    width: 100%;
+                                                    transition: all 0.6s;
+                                                    
+                                                }
+                                                span{
+                                                    img{}
+                                                }
+                                            }
+                                            &:hover{
+                                                .img-box{
+
+                                                    > img{
+                                                        transform: scale(1.05);
+                                                        
+                                                    }
+                          
+                                                }
+                                            }
+                                            .tit-box{
+                                                width: 100%;
+                                                ul{
+                                                    width: 100%;
+                                                    padding: 15px 0 0 0 ;
+                                                    li{
+                                                        width: 100%;
+                                                        padding: 5px 0 ;
+                                                        &:first-child{
+                                                            font-size: 14px; 
+                                                            color: #999;
+                                                        }
+                                                        &:nth-child(3){
+                                                            font-size: 12px;
+                                                            color: #999;
+                                                        }
+                                                        strong,em{
+                                                            font-size: 16px; color: #333; font-weight: 600;
+                                                        }
+                                                        span{
+                                                            &.rate-price{
+                                                                color: #fa622f;
+                                                                font-size: 16px;
+                                                                font-weight: 800;
+                                                            }
+                                                            &.pan-price{
+                                                                font-size: 16px;
+                                                                color: #333;
+                                                                font-weight: 800;
+                                                            }
+                                                        }
+                                                        s{
+                                                            font-size: 14px;
+                                                            color: #b5b5b5;
+                                                        }
+                                                        &:last-child{
+                                                            padding: 2px 8px 4px 8px;
+                                                            width: 75.75px;
+                                                            height: 22px;
+                                                            color: #5f0080;
+                                                            font-size: 12px;
+                                                            font-weight: 500;
+                                                          
+                                                        }
+
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
